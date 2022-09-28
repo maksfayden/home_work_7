@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 26px;
+	color: #1E212C;
+}
+
+.image{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.image img{
+	max-width: 100%;
+	border-radius: 4px;
+	
+}
+.block{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.block__text{
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+.block__text p{
+	margin-bottom: 25px;
+}
+
+.page__text{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+	padding-left: 58px;
+	background: url('../img/icons/braces.png') no-repeat 0 0;
+}
+
+.list__text  {
+	line-height: 160%;
+	margin-bottom: 60px;
+}
+
+.list__text p{
+	margin-bottom: 24px;
+}
+
+.list__text ul{
+	margin-bottom: 24px;
+}
+
+.list__text li{
+	padding-left: 32px;
+	margin-bottom: 4px;
+	background: url(../img/icons/Vector.png) 0 5px no-repeat;
+}
+
+
+.color1__block{
+	background-color: green;
+}
+.text1__color{
+	
+	background-color: yellow;
+}
+.color2__block{
+	background-color: powderblue;
+	margin-bottom: 40px;
+
+}
+
+.text2__color{
+
+	background-color: rosybrown;
+}
+
+[class*="__color"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+
+.background__img p{
+	font-size: 20px;
+	min-height: 200px;
+	margin: 0 auto;
+	max-width: 1230px;
+	line-height: 130%;
+	background-image: url(../img/image.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.background__img{
+	background-image: linear-gradient(55.95deg, #362121 0%, #726b67 100%);
+	margin-bottom: 40px;
+}
+
+.back p{
+
+	padding: 20px;
+	font-size: 30px;
+	margin: 0 auto;
+	max-width: 1230px;
+	line-height: 130%;
+background-image: url(../img/image.jpg);
+background-attachment: scroll;
+
+}
+.back{
+	background-position: 0 0;
+	background-image:url(../img/bluesky.jpg) ;
+	background-repeat:repeat-x;
+	background-size: auto 300px;	
+	margin-bottom: 40px;
+}
+
+
+.block__background p{
+	line-height: 140%;
+	font-size: 20px;
+	padding: 20px;
+	margin: 0 auto ;
+	max-width: 1230px;
+	background: url("../img/image.jpg");
+}
+
+.block__background{
+	background: url("../img/rosesky.jpg") left / auto 450px no-repeat , url("../img/bluesky.jpg") right / auto 350px no-repeat;
+}
